@@ -10,18 +10,18 @@
     {
         "id":1,
         "name":"Hermione Granger",
-        "type":"Paper",
+        "type":"rock",
         "img":"https://ik.imagekit.io/hpapi/hermione.jpg",
-        "WinOf":[1],
-        "LoseOf":[2]
+        "WinOf":[2],
+        "LoseOf":[0]
     },
     {
         "id":3,
         "name":"Ron Weasley",
-        "type":"Paper",
+        "type":"Scissors",
         "img":"https://ik.imagekit.io/hpapi/ron.jpg",
-        "WinOf":[1],
-        "LoseOf":[2]
+        "WinOf":[0],
+        "LoseOf":[1]
     }
 
 ]
