@@ -1,0 +1,27 @@
+[
+    {
+        "id":0,
+        "name":"Harry Potter",
+        "type":"Paper",
+        "img":"https://ik.imagekit.io/hpapi/harry.jpg",
+        "WinOf":[1],
+        "LoseOf":[2]
+    },  
+    {
+        "id":1,
+        "name":"Hermione Granger",
+        "type":"Paper",
+        "img":"https://ik.imagekit.io/hpapi/hermione.jpg",
+        "WinOf":[1],
+        "LoseOf":[2]
+    },
+    {
+        "id":3,
+        "name":"Ron Weasley",
+        "type":"Paper",
+        "img":"https://ik.imagekit.io/hpapi/ron.jpg",
+        "WinOf":[1],
+        "LoseOf":[2]
+    }
+
+]
