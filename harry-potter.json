@@ -11,7 +11,7 @@
         "id":1,
         "name":"Hermione Granger",
         "type":"rock",
-        "img":"https://ik.imagekit.io/hpapi/hermione.jpg",
+        "img":"https://ik.imagekit.io/hpapi/hermione.jpeg",
         "WinOf":[2],
         "LoseOf":[0]
     },
