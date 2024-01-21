@@ -4,48 +4,139 @@
         "name":"Harry Potter",
         "type":"Paper",
         "img":"https://ik.imagekit.io/hpapi/harry.jpg",
-        "WinOf":[1],
-        "LoseOf":[2,5]
+        "WinOf":[1,3,8,10,15],
+        "LoseOf":[2,5,7,11,12,14]
     },  
     {
         "id":1,
         "name":"Hermione Granger",
-        "type":"rock",
+        "type":"Rock",
         "img":"https://ik.imagekit.io/hpapi/hermione.jpeg",
-        "WinOf":[2],
-        "LoseOf":[0,3]
+        "WinOf":[2,5,7,11,12,14],
+        "LoseOf":[0,4,6,9,13]
     },
     {
         "id":2,
         "name":"Ron Weasley",
         "type":"Scissors",
         "img":"https://ik.imagekit.io/hpapi/ron.jpg",
-        "WinOf":[0],
-        "LoseOf":[1,3]
+        "WinOf":[0,4,6,9,13],
+        "LoseOf":[1,3,8,10,15]
     },
     {
         "id":3,
         "name":"Draco Malfoy",
-        "type":"rock",
+        "type":"Rock",
         "img":"https://ik.imagekit.io/hpapi/draco.jpg",
-        "WinOf":[2],
-        "LoseOf":[0,4]
+        "WinOf":[2,5,7,11,12,14],
+        "LoseOf":[0,4,6,9,13]
     },
     {
         "id":4,
         "name":"Minerva McGonagall",
-        "type":"paper",
+        "type":"Paper",
         "img":"https://ik.imagekit.io/hpapi/mcgonagall.jpg",
-        "WinOf":[3,1],
-        "LoseOf":[2,5]
+        "WinOf":[1,3,8,10,15],
+        "LoseOf":[2,5,7,11,12,14]
     },
     {
         "id":5,
         "name":"Cedric Diggory",
         "type":"Scissors",
         "img":"https://ik.imagekit.io/hpapi/cedric.png",
-        "WinOf":[4,0],
-        "LoseOf":[3,1]
+        "WinOf":[0,4,6,9,13],
+        "LoseOf":[1,3,8,10,15]
     }
+    },
+    {
+        "id":6,
+        "name":"Cho Chang",
+        "type":"Paper",
+        "img":"https://ik.imagekit.io/hpapi/cho.jpg",
+        "WinOf":[1,3,8,10,15],
+        "LoseOf":[2,5,7,11,12,14]
+    }
+    },
+    {
+        "id":7,
+        "name":"Severus Snape",
+        "type":"Scissors",
+        "img":"https://ik.imagekit.io/hpapi/snape.jpg",
+        "WinOf":[0,4,6,9,13],
+        "LoseOf":[1,3,8,10,15]
+    }
+    },
+    {
+        "id":8,
+        "name":"Rubeus Hagrid",
+        "type":"Rock",
+        "img":"https://ik.imagekit.io/hpapi/hagrid.png",
+        "WinOf":[2,5,7,11,12,14],
+        "LoseOf":[0,4,6,9,13]
+    }
+    },
+    {
+        "id":9,
+        "name":"Neville Longbottom",
+        "type":"Paper",
+        "img":"https://ik.imagekit.io/hpapi/neville.jpg",
+        "WinOf":[1,3,8,10,15],
+        "LoseOf":[2,5,7,11,12,14]
+    }
+    },
+    {
+        "id":10,
+        "name":"Luna Lovegood",
+        "type":"Rock",
+        "img":"https://ik.imagekit.io/hpapi/luna.jpg",
+        "WinOf":[2,5,7,11,12,14],
+        "LoseOf":[0,4,6,9,13]
+    }
+    },
+    {
+        "id":11,
+        "name":"Cedric Diggory",
+        "type":"Scissors",
+        "img":"https://ik.imagekit.io/hpapi/cedric.png",
+        "WinOf":[0,4,6,9,13],
+        "LoseOf":[1,3,8,10,15]
+    }
+    },
+    {
+        "id":12,
+        "name":"Ginny Weasley",
+        "type":"Scissors",
+        "img":"https://ik.imagekit.io/hpapi/ginny.jpg",
+        "WinOf":[0,4,6,9,13],
+        "LoseOf":[1,3,8,10,15]
+    }
+    },
+    {
+        "id":13,
+        "name":"Sirius Black",
+        "type":"Paper",
+        "img":"https://ik.imagekit.io/hpapi/sirius.JPG",
+        "WinOf":[1,3,8,10,15],
+        "LoseOf":[2,5,7,11,12,14]
+    }
+    },
+    {
+        "id":14,
+        "name":"Remus Lupin",
+        "type":"Scissors",
+        "img":"https://ik.imagekit.io/hpapi/lupin.jpg",
+        "WinOf":[0,4,6,9,13],
+        "LoseOf":[1,3,8,10,15]
+    }
+    },
+    {
+        "id":15,
+        "name":"Arthur Weasley",
+        "type":"Rock",
+        "img":"https://ik.imagekit.io/hpapi/arthur.jpg",
+        "WinOf":[2,5,7,11,12,14],
+        "LoseOf":[0,4,6,9,13]
+    }
+    
 
 ]
