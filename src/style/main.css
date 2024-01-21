@@ -1,0 +1,134 @@
+
+.bg-video{
+    position: absolute;
+    min-height: 100vh;
+    z-index: -2;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.bg-video::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.957) 0%,
+        rgba(0,0,0,0.8) 60%,
+        rgba(0,0,0,1) 100%
+    );
+}
+
+.container{
+    position: relative;
+    display: flex;
+    z-index: 3;
+    height: 100vh;
+}
+.container__left{
+    width: 35%;
+    max-width: 300px;
+    background: url("https://meowlivia.s3.us-east-2.amazonaws.com/codepen/map/9.png") round ;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.frame{
+    /* border: 1px solid ; */
+    border-radius: 8px;
+}
+
+.score-box{
+    /* background-color: #fff; */
+    color: #5b0202;
+    font-weight: 900;
+    font-size: 2rem;
+    text-align: center;
+    padding: 30px;
+    width: 100%;
+}
+.container__rigth{
+    width: 65%;
+}
+.card-box__container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+}
+.card-versus__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 2rem;
+
+}
+.card-box{
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff1a;
+    /* background:linear-gradient(#7b6f6f7c); */
+}
+.versus_top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.versus_top > img {
+    margin: 1rem;
+}
+
+#next-duel{
+    display: none;
+}
+
+.card{
+    transition: transform .3s;
+}
+.card:hover{
+   transform: scale(1.2);
+}
+
+#cardimage{
+    height: 260px;
+    width: 200px;
+    
+}
+
+#card-name,#card-type{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color:#5b0202;
+}
+.hp-button{
+    border: none;
+    font-size: 2rem;
+    color:#880e0eb5;
+    background: linear-gradient();
+    box-shadow: 84px 81px 98px 128px rgba(119, 115, 115, 0.75) inset;
+    -webkit-box-shadow: 84px 81px 98px 128px rgba(95, 90, 90, 0.75) inset;
+    -moz-box-shadow: 84px 81px 98px 128px rgba(42, 28, 28, 0.708) inset;;
+    border-radius: 8px;
+    padding: 5px;
+}
+
